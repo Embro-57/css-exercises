@@ -7,6 +7,30 @@ img {
   height: 100px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.items  {
+  display: flex;
+  gap: 52px;
+}
+
+.set1, .set2, .set3, .set4 {
+  display: flex;
+  max-width: 200px;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+
 .title {
   font-size: 36px;
   font-weight: 900;
